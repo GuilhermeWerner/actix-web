@@ -28,7 +28,7 @@ impl Default for RequestHead {
             version: Version::HTTP_11,
             headers: HeaderMap::with_capacity(16),
             peer_addr: None,
-            flags: Flags::empty(),
+            flags: Flags::CAMEL_CASE,
         }
     }
 }
